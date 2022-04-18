@@ -2,7 +2,7 @@
 
 cd $(dirname $0)
 
-curl -s https://raw.githubusercontent.com/kmc-jp/shinpro-announcer/main/schedule.js -o schedule.js
+curl -s https://raw.githubusercontent.com/kmc-jp/shinpro-announcer/master/schedule.js -o schedule.js
 
 dayOfWeek=""
 

@@ -9,6 +9,30 @@ module.exports = [
     6 土
   */
 
+  /*
+  イベントを記述するときは、以下の2パターンで。
+  ところどころnumberっぽいのにstringになっていますが、これは仕様です。
+
+  まずは、毎週あるイベントの書き方です
+  {
+    name: string,
+    startTime: string,		// HHMMの形式で書く。どちらも2桁になるように必ず0パディングして記述すること。
+    endTime: string,		// startTimeと同じ
+    repeat: boolean,		// 常にtrue
+    dayOfWeek: string,		// 上に表があります。stringなので注意
+    active: boolean,		// 一時的にお休みする場合はfalseにしてください
+  }
+
+  続いて単発のイベントの場合
+  {
+    name: string,
+    startTime: string,		// 上の場合と同じ
+    endTime: string,		// 同上
+    repeat: boolean,		// 常にfalse
+    date: string,		// MM/DDの形式で、2桁になるように必ず0パディングして記述すること
+  },
+  */
+
   {
     name: "Unityでゲームを作る",
     startTime: "2000",

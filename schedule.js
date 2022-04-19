@@ -31,7 +31,7 @@ module.exports = [
     endTime: "",
     repeat: true,
     dayOfWeek: "0",
-    active: false,
+    active: true,
   },
   {
     name: "みんなでゲームを作る",

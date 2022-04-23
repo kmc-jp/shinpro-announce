@@ -11,6 +11,8 @@
     console.log("予定なし")
   }
 
+  event.sort((a, b) => a.startTime - b.startTime)
+
   console.log(event.map(x => `• *${x.name}*\n\t${x.startTime.substring(0, 2) + ":" + x.startTime.substring(2, 4)}~${x.endTime ? x.endTime.substring(0, 2) + ":" + x.endTime.substring(2, 4) : ""}`).join("\n"));
 })()
 

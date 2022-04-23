@@ -143,7 +143,14 @@ module.exports = [
     date: "05/14",
   },
   {
-    name: "GitHub講習会",
+    name: "GitHub講習会 第0回",
+    startTime: "1400",
+    endTime: "",
+    repeat: false,
+    date: "05/01",
+  },
+  {
+    name: "GitHub講習会 第1回",
     startTime: "1400",
     endTime: "1630",
     repeat: false,

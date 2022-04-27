@@ -63,7 +63,7 @@ module.exports = [
     endTime: "",
     repeat: true,
     dayOfWeek: "6",
-    active: false,
+    active: true,
   },
   {
     name: "3DCG勉強会",

@@ -59,11 +59,11 @@ module.exports = [
   },
   {
     name: "みんなでゲームを作る",
-    startTime: "1200",
+    startTime: "1400",
     endTime: "",
     repeat: true,
-    dayOfWeek: "6",
-    active: false,
+    dayOfWeek: "0",
+    active: true,
   },
   {
     name: "3DCG勉強会",

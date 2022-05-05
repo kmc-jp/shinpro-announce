@@ -87,7 +87,7 @@ module.exports = [
     endTime: "2200",
     repeat: true,
     dayOfWeek: "0",
-    active: false,
+    active: true,
   },
   {
     name: "競技プログラミング練習会",
@@ -122,14 +122,14 @@ module.exports = [
     active: true,
   },
   {
-    name: "ラピッドコーディング祭り 第1回",
+    name: "ラピッドコーディング祭り (Unity)",
     startTime: "1200",
     endTime: "1700",
     repeat: false,
     date: "04/30",
   },
   {
-    name: "ラピッドコーディング祭り 第2回",
+    name: "ラピッドコーディング祭り (3DCG)",
     startTime: "1200",
     endTime: "1700",
     repeat: false,

@@ -74,7 +74,7 @@ module.exports = [
     active: true,
   },
   {
-    name: "Rustを知ろう",
+    name: "Rustを完全に理解する",
     startTime: "2000",
     endTime: "",
     repeat: true,

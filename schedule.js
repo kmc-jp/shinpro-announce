@@ -75,10 +75,10 @@ module.exports = [
   },
   {
     name: "Rustを完全に理解する",
-    startTime: "2000",
+    startTime: "1940",
     endTime: "",
     repeat: true,
-    dayOfWeek: "5",
+    dayOfWeek: "1",
     active: true,
   },
   {

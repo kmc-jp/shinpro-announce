@@ -71,7 +71,7 @@ module.exports = [
     endTime: "",
     repeat: true,
     dayOfWeek: "2",
-    active: true,
+    active: false,
   },
   {
     name: "Rustを完全に理解する",

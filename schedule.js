@@ -39,7 +39,7 @@ module.exports = [
     endTime: "2200",
     repeat: true,
     dayOfWeek: "6",
-    active: true,
+    active: false,
   },
   {
     name: "DTM練習会",
@@ -55,7 +55,7 @@ module.exports = [
     endTime: "",
     repeat: true,
     dayOfWeek: "0",
-    active: true,
+    active: false,
   },
   {
     name: "みんなでゲームを作る",
@@ -79,7 +79,7 @@ module.exports = [
     endTime: "",
     repeat: true,
     dayOfWeek: "1",
-    active: true,
+    active: false,
   },
   {
     name: "Webサービス勉強会",
@@ -95,7 +95,7 @@ module.exports = [
     endTime: "2000",
     repeat: true,
     dayOfWeek: "6",
-    active: true,
+    active: false,
   },
   {
     name: "Principles of Program Analysis 読み会",
@@ -119,7 +119,7 @@ module.exports = [
     endTime: "2200",
     repeat: true,
     dayOfWeek: "4",
-    active: true,
+    active: false,
   },
   {
     name: "ラピッドコーディング祭り (Unity)",
